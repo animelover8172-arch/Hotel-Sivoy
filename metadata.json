@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Sivoy — Bhabua",
+  "description": "Hotel Sivoy is a hotel in Azad Nagar, Bhabua offering air-conditioned accommodation with free Wi-Fi, parking, laundry service and room service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

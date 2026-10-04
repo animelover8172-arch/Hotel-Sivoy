@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #F5F2EC;
+    --color-graphite: #1D1D1B;
+    --color-sage: #697568;
+    --color-bronze: #A8875B;
+    --color-warmgrey: #D9D6CF;
+    --color-white: #FFFFFF;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #F5F2EC;
+    color: #1D1D1B;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #A8875B;
+    color: #FFFFFF;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle architectural patterns */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(29, 29, 27, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(29, 29, 27, 0.04) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(168, 135, 91, 0.15) 1px, transparent 1px);
+}
